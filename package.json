@@ -1,0 +1,29 @@
+{
+  "name": "anclora-guesthub-showcase",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Case study de portfolio para Anclora GuestHub: gestión de huéspedes, check-in y preparación de XML para SES.HOSPEDAJES",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "typescript": "~5.6.3",
+    "typescript-eslint": "^8.19.1",
+    "vite": "^5.4.11"
+  }
+}
