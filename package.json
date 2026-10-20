@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Case study de portfolio para Anclora GuestHub: gestión de huéspedes, check-in y preparación de XML para SES.HOSPEDAJES",
   "scripts": {
-    "dev": "vite",
+    "dev": "node ../anclora-infrastructure/scripts/free-port.mjs && vite --port 3039 --strictPort",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
