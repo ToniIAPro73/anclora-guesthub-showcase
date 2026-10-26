@@ -60,7 +60,7 @@ REASON=Static showcase repository.
 
 APPLICATION_NAME=Anclora Guesthub Showcase
 REPOSITORY=anclora-guesthub-showcase
-APPLICATION_TYPE=governance_or_static_library
+APPLICATION_TYPE=frontend
 FRAMEWORK=Vite + React
 
 ## 2. Runtime Topology
